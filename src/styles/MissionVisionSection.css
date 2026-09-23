@@ -1,0 +1,44 @@
+.mission-vision {
+    padding: 96px 0;
+    background-color: var(--color-bg-light);
+}
+
+.mission-vision__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.mission-vision__card {
+    background-color: #ffffff;
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 40px;
+    border-top: 4px solid var(--color-teal);
+}
+
+    .mission-vision__card:nth-child(2) {
+        border-top-color: var(--color-orange);
+    }
+
+.mission-vision__label {
+    display: block;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--color-text-heading);
+    margin-bottom: 16px;
+}
+
+.mission-vision__text {
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--color-text-body);
+}
+
+@media (max-width: 768px) {
+    .mission-vision__grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+
+# Variables de entorno locales (URL del backend en desarrollo, secretos).
+# .env.example y .env.production SÍ se versionan (no tienen secretos).
+.env
+.env.local
+.env.development
+.vs

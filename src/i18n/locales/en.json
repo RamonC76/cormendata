@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "services": "Services",
+    "process": "How we work",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "Software · AI · Data",
+    "title": "Software development, artificial intelligence, and data that drive your business growth.",
+    "subtitle": "We design, develop, and integrate custom technology solutions for companies looking to modernize their operations and make the most of their data.",
+    "ctaPrimary": "Tell us about your project",
+    "ctaSecondary": "See our services",
+    "illustrationAlt": "Illustration of connected nodes representing software, AI, and data",
+    "nodeSoftware": "Software",
+    "nodeAI": "AI",
+    "nodeData": "Data"
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "heading": "Many companies hit a wall their current technology can't solve",
+    "subtext": "These are the most common signs that it's time to rethink how your operation uses software and data.",
+    "items": {
+      "scattered-data": {
+        "title": "Scattered, underused data",
+        "description": "Information lives across different systems and spreadsheets, but never turns into decisions."
+      },
+      "manual-processes": {
+        "title": "Manual processes that don't scale",
+        "description": "Repetitive tasks that depend on people and could be automated with software or AI."
+      },
+      "disconnected-systems": {
+        "title": "Systems that don't talk to each other",
+        "description": "Lack of integration between platforms, creating duplicate work and outdated information."
+      },
+      "no-visibility": {
+        "title": "No real-time visibility",
+        "description": "Decisions made without up-to-date dashboards or reports."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "heading": "Three areas, one way of working with you",
+    "subtext": "We combine development, artificial intelligence, and data based on what your operation actually needs.",
+    "items": {
+      "software-development": {
+        "title": "Software development & systems integration",
+        "description": "Web applications, APIs, and connections between platforms that don't currently talk to each other, including legacy system modernization."
+      },
+      "applied-ai": {
+        "title": "Applied artificial intelligence",
+        "description": "Chatbots and virtual assistants, process automation, and AI-powered text or document analysis."
+      },
+      "data-analytics": {
+        "title": "Data & analytics",
+        "description": "Database design and management, dashboards, and real-time reports that bring together different data sources."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "heading": "A clear process, start to finish",
+    "steps": {
+      "discovery": {
+        "title": "Diagnosis",
+        "description": "We understand your current operation, your systems, and the specific problem you want to solve."
+      },
+      "solution-design": {
+        "title": "Solution design",
+        "description": "We propose an architecture or technical approach tailored to your case, not a generic solution."
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "We develop and integrate the solution with your existing systems."
+      },
+      "support": {
+        "title": "Support & optimization",
+        "description": "Ongoing support, adjustments, and continuous improvement as your needs change."
+      },
+      "results-measurement": {
+        "title": "Results measurement",
+        "description": "Tracking concrete metrics — time saved, error reduction, adoption — to validate impact."
+      }
+    }
+  },
+  "missionVision": {
+    "missionLabel": "Mission",
+    "missionText": "At Trewik, we design and build software, artificial intelligence solutions, and data architectures that solve real business problems. We combine solid engineering with cutting-edge technology so companies can operate with more intelligence, speed, and confidence in their data.",
+    "visionLabel": "Vision",
+    "visionText": "To be the leading technology consultancy in Mexico for companies looking to modernize their systems and incorporate artificial intelligence in a practical, measurable way."
+  },
+  "techStack": {
+    "eyebrow": "Technical backbone",
+    "title": "Built on proven technology",
+    "categories": {
+      "backend": "Backend Development",
+      "frontend": "Frontend Development",
+      "cloud": "Cloud",
+      "databases": "Databases",
+      "aiAnalytics": "AI & Analytics"
+    }
+  },
+  "useCase": {
+    "eyebrow": "Proof of concept",
+    "heading": "An example of what we can build",
+    "chatHeaderLabel": "Conversational assistant — live demo",
+    "initialMessage": "Hi, I'm this site's assistant. Ask me about our services, our process, or anything about your project.",
+    "inputLabel": "Type your question",
+    "inputPlaceholder": "E.g. what kind of projects do you build?",
+    "sendButton": "Send",
+    "pendingLabel": "Typing…",
+    "fallbackReply": "I couldn't generate a response right now.",
+    "errorReply": "I had trouble responding. Please try again in a moment.",
+    "caption": "Try this live assistant: an example of what we can build for your business, powered by AI and integrated with our own API.",
+    "caseStudy": {
+      "challengeLabel": "Challenge",
+      "challengeText": "Automate initial user support without losing conversation quality or relying on constant human intervention.",
+      "solutionLabel": "Solution",
+      "solutionText": "An AI-powered conversational assistant, integrated with a custom backend, able to maintain context and respond naturally.",
+      "resultLabel": "Result",
+      "resultText": "A support channel available 24/7, able to scale without operating costs growing proportionally."
+    }
+  },
+  "contact": {
+    "title": "Have a project in mind? Let's talk.",
+    "subtitle": "Tell us what you need and we'll reach out to schedule a free diagnostic call.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "companyLabel": "Company (optional)",
+    "companyPlaceholder": "Company",
+    "messageLabel": "Tell us about your project",
+    "messagePlaceholder": "Briefly describe what you need",
+    "submit": "Request a diagnostic",
+    "sending": "Sending...",
+    "successMessage": "We received your message, we'll be in touch soon.",
+    "errorMessage": "We couldn't send your message. Try again or reach us on WhatsApp.",
+    "dividerOr": "or",
+    "whatsappButton": "Message us on WhatsApp",
+    "altContactPrefix": "or email us directly at"
+  },
+  "footer": {
+    "description": "Software, AI, and data development for companies in Mexico City.",
+    "contactTitle": "Contact",
+    "linksTitle": "Links",
+    "portfolioLink": "Personal portfolio",
+    "whatsappLabel": "WhatsApp",
+    "city": "Mexico City",
+    "rights": "All rights reserved."
+  }
+}

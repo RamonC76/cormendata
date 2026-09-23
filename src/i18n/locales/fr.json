@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "services": "Services",
+    "process": "Notre méthode",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "Logiciel · IA · Données",
+    "title": "Développement logiciel, intelligence artificielle et données qui font croître votre entreprise.",
+    "subtitle": "Nous concevons, développons et intégrons des solutions technologiques sur mesure pour les entreprises qui veulent moderniser leurs opérations et tirer parti de leurs données.",
+    "ctaPrimary": "Parlez-nous de votre projet",
+    "ctaSecondary": "Découvrez nos services",
+    "illustrationAlt": "Illustration de nœuds connectés représentant le logiciel, l'IA et les données",
+    "nodeSoftware": "Logiciel",
+    "nodeAI": "IA",
+    "nodeData": "Données"
+  },
+  "problem": {
+    "eyebrow": "Le problème",
+    "heading": "Beaucoup d'entreprises atteignent une limite que leur technologie actuelle ne résout pas",
+    "subtext": "Voici les signes les plus courants qu'il est temps de repenser la façon dont votre entreprise utilise le logiciel et les données.",
+    "items": {
+      "scattered-data": {
+        "title": "Données dispersées et sous-exploitées",
+        "description": "L'information vit dans différents systèmes et feuilles de calcul, mais ne se transforme jamais en décisions."
+      },
+      "manual-processes": {
+        "title": "Processus manuels qui ne s'adaptent pas",
+        "description": "Des tâches répétitives qui dépendent de personnes et pourraient être automatisées avec du logiciel ou de l'IA."
+      },
+      "disconnected-systems": {
+        "title": "Des systèmes qui ne communiquent pas entre eux",
+        "description": "Manque d'intégration entre les plateformes, ce qui génère un travail dupliqué et des informations obsolètes."
+      },
+      "no-visibility": {
+        "title": "Manque de visibilité en temps réel",
+        "description": "Des décisions prises sans tableaux de bord ni rapports à jour."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "heading": "Trois domaines, une seule façon de travailler avec vous",
+    "subtext": "Nous combinons développement, intelligence artificielle et données selon ce dont votre entreprise a réellement besoin.",
+    "items": {
+      "software-development": {
+        "title": "Développement logiciel et intégration de systèmes",
+        "description": "Applications web, API et connexion entre plateformes qui ne communiquent pas entre elles aujourd'hui, y compris la modernisation de systèmes existants."
+      },
+      "applied-ai": {
+        "title": "Intelligence artificielle appliquée",
+        "description": "Chatbots et assistants virtuels, automatisation de processus et analyse de texte ou de documents avec l'IA."
+      },
+      "data-analytics": {
+        "title": "Données et analytique",
+        "description": "Conception et administration de bases de données, tableaux de bord et rapports en temps réel qui intègrent différentes sources d'information."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Notre méthode",
+    "heading": "Un processus clair, du début à la fin",
+    "steps": {
+      "discovery": {
+        "title": "Diagnostic",
+        "description": "Nous comprenons votre activité actuelle, vos systèmes et le problème spécifique que vous voulez résoudre."
+      },
+      "solution-design": {
+        "title": "Conception de la solution",
+        "description": "Nous proposons une architecture ou une approche technique adaptée à votre cas, pas une solution générique."
+      },
+      "implementation": {
+        "title": "Mise en œuvre",
+        "description": "Nous développons et intégrons la solution à vos systèmes existants."
+      },
+      "support": {
+        "title": "Support et optimisation",
+        "description": "Accompagnement continu, ajustements et amélioration continue à mesure que vos besoins évoluent."
+      },
+      "results-measurement": {
+        "title": "Mesure des résultats",
+        "description": "Suivi de métriques concrètes — temps gagné, réduction des erreurs, adoption — pour valider l'impact."
+      }
+    }
+  },
+  "missionVision": {
+    "missionLabel": "Mission",
+    "missionText": "Chez Trewik, nous concevons et développons des logiciels, des solutions d'intelligence artificielle et des architectures de données qui résolvent de vrais problèmes d'entreprise. Nous combinons une ingénierie solide avec des technologies de pointe pour que les entreprises opèrent avec plus d'intelligence, de rapidité et de confiance dans leurs données.",
+    "visionLabel": "Vision",
+    "visionText": "Être la consultance technologique de référence au Mexique pour les entreprises qui souhaitent moderniser leurs systèmes et intégrer l'intelligence artificielle de manière pratique et mesurable."
+  },
+  "techStack": {
+    "eyebrow": "Socle technique",
+    "title": "Construit sur une technologie éprouvée",
+    "categories": {
+      "backend": "Développement Backend",
+      "frontend": "Développement Frontend",
+      "cloud": "Cloud",
+      "databases": "Bases de données",
+      "aiAnalytics": "IA et analytique"
+    }
+  },
+  "useCase": {
+    "eyebrow": "Preuve de concept",
+    "heading": "Un exemple de ce que nous pouvons construire",
+    "chatHeaderLabel": "Assistant conversationnel — démo en direct",
+    "initialMessage": "Bonjour, je suis l'assistant de ce site. Posez-moi des questions sur nos services, notre méthode de travail ou votre projet.",
+    "inputLabel": "Écrivez votre question",
+    "inputPlaceholder": "Ex. quels types de projets développez-vous ?",
+    "sendButton": "Envoyer",
+    "pendingLabel": "En train d'écrire…",
+    "fallbackReply": "Je n'ai pas pu générer de réponse pour le moment.",
+    "errorReply": "J'ai eu un problème pour répondre. Réessayez dans un instant.",
+    "caption": "Essayez cet assistant en direct : un exemple de ce que nous pouvons construire pour votre entreprise, propulsé par l'IA et intégré à notre propre API.",
+    "caseStudy": {
+      "challengeLabel": "Défi",
+      "challengeText": "Automatiser le support initial aux utilisateurs sans perdre en qualité de conversation ni dépendre d'une intervention humaine constante.",
+      "solutionLabel": "Solution",
+      "solutionText": "Développement d'un assistant conversationnel avec IA, intégré à un backend propre, capable de maintenir le contexte et de répondre naturellement.",
+      "resultLabel": "Résultat",
+      "resultText": "Un canal de support disponible 24/7, capable de monter en charge sans augmenter les coûts opérationnels de façon proportionnelle."
+    }
+  },
+  "contact": {
+    "title": "Vous avez un projet en tête ? Parlons-en.",
+    "subtitle": "Dites-nous ce dont vous avez besoin et nous vous contacterons pour planifier un appel de diagnostic gratuit.",
+    "nameLabel": "Nom",
+    "namePlaceholder": "Votre nom",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vous@email.com",
+    "companyLabel": "Entreprise (facultatif)",
+    "companyPlaceholder": "Entreprise",
+    "messageLabel": "Parlez-nous de votre projet",
+    "messagePlaceholder": "Décrivez brièvement ce dont vous avez besoin",
+    "submit": "Demander un diagnostic",
+    "sending": "Envoi en cours...",
+    "successMessage": "Nous avons reçu votre message, nous vous contacterons bientôt.",
+    "errorMessage": "Nous n'avons pas pu envoyer votre message. Réessayez ou écrivez-nous sur WhatsApp.",
+    "dividerOr": "ou",
+    "whatsappButton": "Écrivez-nous sur WhatsApp",
+    "altContactPrefix": "ou écrivez-nous directement à"
+  },
+  "footer": {
+    "description": "Développement logiciel, IA et données pour les entreprises à Mexico.",
+    "contactTitle": "Contact",
+    "linksTitle": "Liens",
+    "portfolioLink": "Portfolio personnel",
+    "whatsappLabel": "WhatsApp",
+    "city": "Mexico",
+    "rights": "Tous droits réservés."
+  }
+}

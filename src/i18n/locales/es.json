@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "process": "Cómo trabajamos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tag": "Software · IA · Datos",
+    "title": "Desarrollo de software, inteligencia artificial y datos que impulsan el crecimiento de tu negocio.",
+    "subtitle": "Diseñamos, desarrollamos e integramos soluciones tecnológicas a la medida para empresas que buscan modernizar sus operaciones y aprovechar sus datos.",
+    "ctaPrimary": "Cuéntanos tu proyecto",
+    "ctaSecondary": "Conoce nuestros servicios",
+    "illustrationAlt": "Ilustración de nodos conectados representando software, IA y datos",
+    "nodeSoftware": "Software",
+    "nodeAI": "IA",
+    "nodeData": "Datos"
+  },
+  "problem": {
+    "eyebrow": "El problema",
+    "heading": "Muchas empresas llegan a un límite que su tecnología actual no resuelve",
+    "subtext": "Estas son las señales más comunes de que es momento de repensar cómo tu operación usa el software y los datos.",
+    "items": {
+      "scattered-data": {
+        "title": "Datos dispersos y desaprovechados",
+        "description": "La información vive en distintos sistemas y hojas de cálculo, pero no se convierte en decisiones."
+      },
+      "manual-processes": {
+        "title": "Procesos manuales que no escalan",
+        "description": "Tareas repetitivas que dependen de personas y podrían automatizarse con software o IA."
+      },
+      "disconnected-systems": {
+        "title": "Sistemas que no se hablan entre sí",
+        "description": "Falta de integración entre plataformas, lo que genera trabajo duplicado e información desactualizada."
+      },
+      "no-visibility": {
+        "title": "Falta de visibilidad en tiempo real",
+        "description": "Decisiones que se toman sin dashboards o reportes actualizados."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Servicios",
+    "heading": "Tres áreas, una sola forma de trabajar contigo",
+    "subtext": "Combinamos desarrollo, inteligencia artificial y datos según lo que tu operación realmente necesite.",
+    "items": {
+      "software-development": {
+        "title": "Desarrollo de software e integración de sistemas",
+        "description": "Aplicaciones web, APIs y conexión entre plataformas que hoy no se hablan entre sí, incluyendo modernización de sistemas legacy."
+      },
+      "applied-ai": {
+        "title": "Inteligencia artificial aplicada",
+        "description": "Chatbots y asistentes virtuales, automatización de procesos y análisis de texto o documentos con IA."
+      },
+      "data-analytics": {
+        "title": "Datos y analítica",
+        "description": "Diseño y administración de bases de datos, dashboards y reportes en tiempo real que integran distintas fuentes de información."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "heading": "Un proceso claro, de principio a fin",
+    "steps": {
+      "discovery": {
+        "title": "Diagnóstico",
+        "description": "Entendemos tu operación actual, tus sistemas y el problema específico que quieres resolver."
+      },
+      "solution-design": {
+        "title": "Diseño de solución",
+        "description": "Proponemos una arquitectura o enfoque técnico adaptado a tu caso, no una solución genérica."
+      },
+      "implementation": {
+        "title": "Implementación",
+        "description": "Desarrollamos e integramos la solución con tus sistemas existentes."
+      },
+      "support": {
+        "title": "Soporte y optimización",
+        "description": "Acompañamiento posterior, ajustes y mejora continua conforme cambian tus necesidades."
+      },
+      "results-measurement": {
+        "title": "Medición de resultados",
+        "description": "Seguimiento de métricas concretas —tiempo ahorrado, reducción de errores, adopción— para validar el impacto."
+      }
+    }
+  },
+  "missionVision": {
+    "missionLabel": "Misión",
+    "missionText": "En Trewik diseñamos y construimos software, soluciones de inteligencia artificial y arquitecturas de datos que resuelven problemas reales de negocio. Combinamos ingeniería sólida con tecnología de vanguardia para que las empresas operen con más inteligencia, velocidad y confianza en sus datos.",
+    "visionLabel": "Visión",
+    "visionText": "Ser la consultoría tecnológica de referencia en México para empresas que buscan modernizar sus sistemas e incorporar inteligencia artificial de forma práctica y medible."
+  },
+  "techStack": {
+    "eyebrow": "Respaldo técnico",
+    "title": "Construido sobre tecnología probada",
+    "categories": {
+      "backend": "Desarrollo Backend",
+      "frontend": "Desarrollo Frontend",
+      "cloud": "Nube",
+      "databases": "Bases de datos",
+      "aiAnalytics": "IA y analítica"
+    }
+  },
+  "useCase": {
+    "eyebrow": "Prueba de concepto",
+    "heading": "Un ejemplo de lo que podemos construir",
+    "chatHeaderLabel": "Asistente conversacional — demo en vivo",
+    "initialMessage": "Hola, soy el asistente de este sitio. Pregúntame sobre los servicios, el proceso de trabajo o cualquier duda sobre tu proyecto.",
+    "inputLabel": "Escribe tu pregunta",
+    "inputPlaceholder": "Ej. ¿qué tipo de proyectos desarrollan?",
+    "sendButton": "Enviar",
+    "pendingLabel": "Escribiendo…",
+    "fallbackReply": "No pude generar una respuesta en este momento.",
+    "errorReply": "Tuve un problema para responder. Intenta de nuevo en un momento.",
+    "caption": "Prueba este asistente en vivo: un ejemplo de lo que podemos construir para tu negocio, impulsado por IA e integrado a una API propia.",
+    "caseStudy": {
+      "challengeLabel": "Reto",
+      "challengeText": "Automatizar la atención inicial a usuarios sin perder calidad en la conversación ni depender de intervención humana constante.",
+      "solutionLabel": "Solución",
+      "solutionText": "Desarrollo de un asistente conversacional con IA, integrado a un backend propio, capaz de mantener contexto y responder de forma natural.",
+      "resultLabel": "Resultado",
+      "resultText": "Un canal de atención disponible 24/7, con capacidad de escalar sin aumentar costos operativos proporcionalmente."
+    }
+  },
+  "contact": {
+    "title": "¿Tienes un proyecto en mente? Hablemos.",
+    "subtitle": "Cuéntanos qué necesitas y te contactamos para agendar una llamada de diagnóstico sin costo.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo",
+    "emailPlaceholder": "tu@correo.com",
+    "companyLabel": "Empresa (opcional)",
+    "companyPlaceholder": "Empresa",
+    "messageLabel": "Cuéntanos de tu proyecto",
+    "messagePlaceholder": "Describe brevemente lo que necesitas",
+    "submit": "Solicitar diagnóstico",
+    "sending": "Enviando...",
+    "successMessage": "Recibimos tu mensaje, te contactaremos pronto.",
+    "errorMessage": "No pudimos enviar tu mensaje. Intenta de nuevo o escríbenos por WhatsApp.",
+    "dividerOr": "o",
+    "whatsappButton": "Escríbenos por WhatsApp",
+    "altContactPrefix": "o escríbenos directamente a"
+  },
+  "footer": {
+    "description": "Desarrollo de software, IA y datos para empresas en Ciudad de México.",
+    "contactTitle": "Contacto",
+    "linksTitle": "Enlaces",
+    "portfolioLink": "Portafolio personal",
+    "whatsappLabel": "WhatsApp",
+    "city": "Ciudad de México",
+    "rights": "Todos los derechos reservados."
+  }
+}

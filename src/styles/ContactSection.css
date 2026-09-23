@@ -1,0 +1,132 @@
+.contact-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-dark) 100%);
+  padding: 88px 0;
+}
+
+.contact-section__glow {
+  position: absolute;
+  top: -100px;
+  left: -80px;
+  width: 380px;
+  height: 380px;
+  border-radius: var(--radius-pill);
+  background: radial-gradient(circle at 30% 30%, rgba(0, 217, 192, 0.14), rgba(0, 217, 192, 0) 70%);
+  pointer-events: none;
+}
+
+.contact-section__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.contact-section__copy {
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-section__title {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.contact-section__subtitle {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.contact-form {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+}
+
+.contact-form__row {
+  display: flex;
+  gap: 12px;
+}
+
+.contact-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.contact-form__field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-heading);
+}
+
+.contact-form__field input,
+.contact-form__field textarea {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.contact-form__submit {
+  width: 100%;
+}
+
+.contact-form__submit:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.contact-form__status {
+  font-size: 13px;
+  margin: 0;
+}
+
+.contact-form__status--success {
+  color: var(--color-teal-dark);
+}
+
+.contact-form__status--error {
+  color: var(--color-orange);
+}
+
+.contact-form__divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 4px 0;
+}
+
+.contact-form__divider span:not(.contact-form__divider-text) {
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.contact-form__divider-text {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.contact-form__alt-contact {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin: 0;
+}
