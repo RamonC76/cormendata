@@ -6,7 +6,7 @@ import react from "@vitejs/plugin-react";
 // base: "/consulting-website/",
 export default defineConfig({
     plugins: [react()],
-    base: "/trewik/",
+    base: '/cormendata/',
     server: {
         watch: {
             // Ignora la carpeta de índice de Visual Studio: si el editor la

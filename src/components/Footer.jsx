@@ -19,7 +19,7 @@ export default function Footer() {
 
                     <div className="footer__column">
                         <span className="footer__column-title">{t("footer.contactTitle")}</span>
-                        <span className="footer__text">trewik.mexico@gmail.com</span>
+                        <span className="footer__text">cormendata@gmail.com</span>
                         <span className="footer__text">{t("footer.whatsappLabel")}: +52 55 6065 1350</span>
                         <span className="footer__text">{t("footer.city")}</span>
                     </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                         <a href="https://ramonc76.github.io/portafolioweb-frontend/" target="_blank" rel="noreferrer" className="footer__link">
                             {t("footer.portfolioLink")}
                         </a>
-                        <a href="https://www.linkedin.com/company/trewik/" target="_blank" rel="noreferrer" className="footer__link">
+                        <a href="https://www.linkedin.com/company/cormendata/" target="_blank" rel="noreferrer" className="footer__link">
                             LinkedIn
                         </a>
                     </div>
@@ -37,7 +37,7 @@ export default function Footer() {
 
                 <div className="footer__bottom">
                     <span>
-                        © {currentYear} Trewik. {t("footer.rights")}
+                        © {currentYear} CorMen Data. {t("footer.rights")}
                     </span>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { apiUrl } from "../config/api.js";
 
-const CONTACT_EMAIL = "trewik.mexico@gmail.com";
+const CONTACT_EMAIL = "cormendata@gmail.com";
 const WHATSAPP_NUMBER = "525560651350";
 
 const INITIAL_FORM_STATE = { name: "", email: "", company: "", message: "" };
