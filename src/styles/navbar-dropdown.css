@@ -1,0 +1,73 @@
+/* Agrega esto a tu hoja de estilos del Navbar (junto a las reglas .navbar__ existentes) */
+
+.navbar__dropdown {
+    position: relative;
+}
+
+.navbar__dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.navbar__dropdown-caret {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+    margin-top: -2px;
+}
+
+.navbar__dropdown--open .navbar__dropdown-caret {
+    transform: rotate(225deg);
+    margin-top: 2px;
+}
+
+.navbar__dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    min-width: 220px;
+    background: #161f49;
+    border: 1px solid rgba(0, 217, 192, 0.25);
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: 0 12px 30px rgba(10, 13, 38, 0.35);
+    z-index: 50;
+}
+
+.navbar__dropdown--open .navbar__dropdown-menu {
+    display: block;
+}
+
+.navbar__dropdown-item {
+    display: block;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.navbar__dropdown-item:hover {
+    background: rgba(0, 217, 192, 0.12);
+    color: #00d9c0;
+}
+
+/* En móvil (menú apilado), el desplegable se comporta como acordeón dentro del menú */
+@media (max-width: 768px) {
+    .navbar__dropdown-menu {
+        position: static;
+        margin-top: 8px;
+        box-shadow: none;
+        border-color: rgba(255, 255, 255, 0.08);
+    }
+}

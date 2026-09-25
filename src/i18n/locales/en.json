@@ -2,7 +2,19 @@
   "nav": {
     "services": "Services",
     "process": "How we work",
-    "contact": "Contact"
+    "contact": "Contact",
+    "industries": "Industries",
+    "industriesBanca": "Banking",
+    "industriesEducacion": "Education",
+    "industriesFinanzas": "Finance",
+    "industriesRetail": "Retail",
+    "industriesSeguros": "Insurance",
+    "industriesRealEstate": "Real Estate",
+    "courses": "Courses",
+    "coursesExcel": "Excel / Google Sheets",
+    "coursesSQL": "SQL / Databases",
+    "coursesPython": "Python for Data Analysis",
+    "coursesIA": "AI Applied to Business"
   },
   "hero": {
     "tag": "Software · AI · Data",
@@ -85,7 +97,7 @@
   },
   "missionVision": {
     "missionLabel": "Mission",
-    "missionText": "At Trewik, we design and build software, artificial intelligence solutions, and data architectures that solve real business problems. We combine solid engineering with cutting-edge technology so companies can operate with more intelligence, speed, and confidence in their data.",
+    "missionText": "At CorMen Data, we design and build software, artificial intelligence solutions, and data architectures that solve real business problems. We combine solid engineering with cutting-edge technology so companies can operate with more intelligence, speed, and confidence in their data.",
     "visionLabel": "Vision",
     "visionText": "To be the leading technology consultancy in Mexico for companies looking to modernize their systems and incorporate artificial intelligence in a practical, measurable way."
   },

@@ -1,28 +1,23 @@
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
-import Hero from "./components/Hero.jsx";
-import ProblemSection from "./components/ProblemSection.jsx";
-import ServicesSection from "./components/ServicesSection.jsx";
-import ProcessSection from "./components/ProcessSection.jsx";
-import TechStackSection from "./components/TechStackSection.jsx";
-import UseCaseSection from "./components/UseCaseSection.jsx";
-import ContactSection from "./components/ContactSection.jsx";
 import Footer from "./components/Footer.jsx";
-import MissionVisionSection from "./components/MissionVisionSection.jsx";
+import ScrollManager from "./components/ScrollManager.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import IndustryPage from "./pages/IndustryPage.jsx";
+import CoursePage from "./pages/CoursePage.jsx";
 
-const COMPANY_NAME = "Trewik";
+const COMPANY_NAME = "CorMen Data";
 
 export default function App() {
     return (
         <>
+            <ScrollManager />
             <Navbar />
-            <Hero />
-            <MissionVisionSection />
-            <ProblemSection />
-            <ServicesSection />
-            <ProcessSection />
-            <TechStackSection />
-            <UseCaseSection />
-            <ContactSection />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/industrias/:slug" element={<IndustryPage />} />
+                <Route path="/cursos/:slug" element={<CoursePage />} />
+            </Routes>
             <Footer companyName={COMPANY_NAME} />
         </>
     );
